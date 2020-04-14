@@ -55,7 +55,6 @@ Maybe<void> Server::clientSession(int client) {
   while (true) {
     char buffer[4096] = {0};
     auto res = read(client, buffer, sizeof(buffer));
-    std::cout << std::string(buffer) << std::endl;
     if (res <=  0) {
       shutdown(client, SHUT_RDWR);
     }
