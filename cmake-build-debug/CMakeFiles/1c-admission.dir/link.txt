@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/1c-admission.dir/maybe.cpp.o CMakeFiles/1c-admission.dir/error.cpp.o CMakeFiles/1c-admission.dir/server.cpp.o CMakeFiles/1c-admission.dir/client.cpp.o CMakeFiles/1c-admission.dir/storage.cpp.o CMakeFiles/1c-admission.dir/main.cpp.o  -o 1c-admission -lpthread 
